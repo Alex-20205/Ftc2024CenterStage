@@ -26,7 +26,7 @@
  * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-
+/*
 package org.firstinspires.ftc.robotcontroller.external.samples;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
@@ -60,12 +60,12 @@ import com.qualcomm.robotcore.util.ElapsedTime;
  * Use Android Studio to Copy this Class, and Paste it into your team's code folder with a new name.
  * Remove or comment out the @Disabled line to add this OpMode to the Driver Station OpMode list
  */
-
+/*
 @Autonomous(name="Robot: Auto Drive By Encoder", group="Robot")
 @Disabled
-public class RobotAutoDriveByEncoder_Linear extends LinearOpMode {
+public class fRobotAutoDriveByEncoder_Linear extends LinearOpMode {
 
-    /* Declare OpMode members. */
+    /* Declare OpMode members. *//*
     private DcMotor         leftDrive   = null;
     private DcMotor         rightDrive  = null;
 
@@ -123,7 +123,7 @@ public class RobotAutoDriveByEncoder_Linear extends LinearOpMode {
         telemetry.update();
         sleep(1000);  // pause to display final telemetry message.
     }
-
+*/
     /*
      *  Method to perform a relative move, based on encoder counts.
      *  Encoders are not reset as the move is based on the current position.
@@ -131,7 +131,7 @@ public class RobotAutoDriveByEncoder_Linear extends LinearOpMode {
      *  1) Move gets to the desired position
      *  2) Move runs out of time
      *  3) Driver stops the OpMode running.
-     */
+     *//*
     public void encoderDrive(double speed,
                              double leftInches, double rightInches,
                              double timeoutS) {
@@ -185,3 +185,4 @@ public class RobotAutoDriveByEncoder_Linear extends LinearOpMode {
         }
     }
 }
+*/

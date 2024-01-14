@@ -149,8 +149,8 @@ The readme.md file located in the [/TeamCode/src/main/java/org/firstinspires/ftc
 * Increases maximum size of Blocks inline comments to 100 characters
 * Saves position of open Blocks comment balloons
 * Adds new AprilTag Driving samples:  RobotDriveToAprilTagTank & RobotDriveToAprilTagOmni
-* Adds Sample to illustrate optimizing camera exposure for AprilTags: ConceptAprilTagOptimizeExposure
-
+* Adds Sample to illustrate optimizing camera exposure for AprilTags: ConceptAprilTagOptimizeExposure *
+* 
 ### Bug Fixes
 * Corrects inspection screen to report app version using the SDK version defined in the libraries instead of the version specified in `AndroidManifest.xml`. This corrects the case where the app could show matching versions numbers to the user but still state that the versions did not match.
   * If the version specified in `AndroidManifest.xml` does not match the SDK version, an SDK version entry will be displayed on the Manage webpage.
